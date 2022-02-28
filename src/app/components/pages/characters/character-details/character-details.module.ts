@@ -3,15 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { CharacterDetailsRoutingModule } from './character-details-routing.module';
 
-
-
 @NgModule({
-  declarations: [
-
-  ],
-  imports: [
-    CommonModule,
-    CharacterDetailsRoutingModule
-  ]
+  declarations: [],
+  imports: [CommonModule, CharacterDetailsRoutingModule],
 })
-export class CharacterDetailsModule { }
+export class CharacterDetailsModule {}
